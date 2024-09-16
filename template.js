@@ -64,7 +64,7 @@ multi Comment
 /////////////////////////////////////////////////////////////////////////////////////////
 
 // operator
-let data1=12;
+// let data1=12;
 // let data2=7;
 
 // console.log(data1+data2);
@@ -96,3 +96,41 @@ let data1=12;
 // const userdata=prompt("lütfen adınızn giriniz ....");
 // alert(userdata);
 /////////////////////////////////////////////////////////////////////////////////////////
+//MATH
+console.log(Math.PI);
+console.log(Math.E);
+console.log(Math.sqrt(25));
+console.log(Math.pow(5,2));
+console.log(5**2);
+console.log(Math.abs(-5));
+console.log(Math.min(-5,5,78,645,1,6));
+console.log(Math.max(-5,5,78,645,1,6));
+
+console.log(Math.floor(2.9));   //2
+console.log(Math.ceil(2.6));    //3
+console.log(Math.round(4.5));   //5
+console.log(Math.round(4.6));   //5
+console.log(Math.round(4.4));   //4
+
+console.log(Math.sin(8.5));
+console.log(Math.cos(8.5));
+console.log(Math.asin(-1));
+console.log(Math.acos(-1));
+console.log(Math.tan(-1));
+console.log(1/Math.tan(-1));
+
+console.log(Math.random()*1+10);
+console.log(Math.random(1)+10);
+console.log(Math.random()*10+1);
+
+console.log(Math.floor(Math.random()*10+1));  
+
+
+// ESCAPE CHARACTERS
+console.log("Görüntü Oluşturucu \n uygulamasını açın ve istenirse \nMicrosoft hesabınızla oturum açın."); 
+
+console.log("Görüntü Oluşturucu \r uygulamasını açın ve istenirse \r Microsoft hesabınızla oturum açın."); 
+
+console.log("Görüntü Oluşturucu \t uygulamasını açın ve istenirse \t Microsoft hesabınızla oturum açın.");
+ 
+console.log("Görüntü Oluşturucu \" uygulamasını açın ve istenirse \" Microsoft hesabınızla oturum açın."); 
